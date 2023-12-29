@@ -316,6 +316,14 @@ class DPCode(StrEnum):
     TEMP_BOILING_C = "temp_boiling_c"
     TEMP_BOILING_F = "temp_boiling_f"
     TEMP_CONTROLLER = "temp_controller"
+    RH_CURRENT = "rh_current"    # Current Water RH
+    CF_CURRENT = "cf_current"    # Current water CF 
+    ORP_CURRENT = "orp_current"    # Current Water ORM  in mV
+    PRO_CURRENT = "pro_current"    # Current Water S.G value
+    SAL_CURRENT = "salinity_current" # Currrent Water Salinity in ppm
+    EC_CURRENT = "ec_current"     # Current Water  ElectoConductivity in us
+    TDS_CURRENT = "tds_current"  # Current Water Total Dissolved Solids (TDS) in ppm
+    PH_CURRENT = "ph_current"    # Current Water PH    
     TEMP_CURRENT = "temp_current"  # Current temperature in °C
     TEMP_CURRENT_F = "temp_current_f"  # Current temperature in °F
     TEMP_INDOOR = "temp_indoor"  # Indoor temperature in °C
