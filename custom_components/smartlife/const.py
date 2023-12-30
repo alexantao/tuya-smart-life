@@ -396,6 +396,7 @@ UNITS = (
             SensorDeviceClass.DATE,
             SensorDeviceClass.MONETARY,
             SensorDeviceClass.TIMESTAMP,
+            SensorDeviceClass.PH,
         },
     ),
     UnitOfMeasurement(
