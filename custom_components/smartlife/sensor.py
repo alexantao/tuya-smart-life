@@ -200,13 +200,6 @@ SENSORS: dict[str, tuple[SmartLifeSensorEntityDescription, ...]] = {
             entity_category=EntityCategory.VOLATILE_ORGANIC_COMPOUNDS_PARTS,
             state_class=SensorStateClass.MEASUREMENT,
         ),
-	    SmartLifeSensorEntityDescription(
-            key=DPCode.,
-            name="Total Dissolved Solids",
-            icon="mdi:water-sync",
-            entity_category=EntityCategory.VOLATILE_ORGANIC_COMPOUNDS_PARTS,
-            state_class=SensorStateClass.MEASUREMENT,
-        ),        
         *BATTERY_SENSORS,
     ),
     # Smart Kettle
