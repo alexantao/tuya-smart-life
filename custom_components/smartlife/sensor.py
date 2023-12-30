@@ -175,7 +175,7 @@ SENSORS: dict[str, tuple[SmartLifeSensorEntityDescription, ...]] = {
             state_class=SensorStateClass.MEASUREMENT,
         ),
         SmartLifeSensorEntityDescription(
-            key=DPCode.PRO_SENSOR_VALUE,
+            key=DPCode.PRO_CURRENT,
             name="Proportion",
             icon="mdi:water-check-outline",
             state_class=SensorStateClass.MEASUREMENT,
